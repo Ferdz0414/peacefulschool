@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #0e0d0d;
+    margin: auto;
+    width: 100%;
+}
+
+.list-navbar-item, .list-navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 20px;
+    background-color: hwb(221 4% 8% / 0.582);
+    overflow: hidden;
+
+}
+.list-items{
+    margin-right: 20px;
+    text-align: justify;
+    display: block;
+    padding: 5px;
+}
+.list-items a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #45c3e9;
+    padding: 2px;
+    color: rgb(14, 13, 13);
+    position: relative;
+}
+.list-items a:hover{
+    cursor: pointer;
+    background-color: #1edff8;
+}
+.logo{
+    padding: 10px;
+    border-radius: 50%;
+    transform: translateX(-700%);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #c41616;
+    position: relative;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.welcomelandingpage{
+    font-size: 70px;
+    color: #4fe2ec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.landingpage-text{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    transform: translateX(50%);
+    backdrop-filter: blur(1px);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: white;
+    color: #0e0d0d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.About-landingpage{
+    height: 60vh;
+    background-color: white;
+    overflow: hidden;
+}
+.About-text-h1{
+    font-size: 50px;
+    color: #c41616;
+    font-family: 'Ssans-serif';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.About-text{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    transform: translateX(50%);
+    font-size: 18px;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+}
+.Event-landingpage{
+    height: 60vh;
+    background-color: white;
+    overflow: hidden;
+}
+.Event-text-h1{
+    font-size: 50px;
+    color: #c41616;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Event-text{
+    width: 50%;
+    height: 35%;
+    padding: 20px;
+    transform: translateX(50%);
+    font-size: 18px;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+}
+.Service-landingpage{
+    height: 70vh;
+    background-color: white;
+    overflow: hidden;
+
+}
+.Service-text-h1{
+    font-size: 50px;
+    color: #c41616;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Mission-text-h1,.Vision-text-h1{
+
+    font-size: 50px;
+    color: #c41616;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+.Mission-border{
+    width: 40%;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    margin-right: 50%;
+}
+.Vision-border{
+    width: 40%;
+    font-size: 18px;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    transform: translateY(-130%);
+    margin-left: 55%;
+}
+.Contactus-landingpage{
+    height: 50vh;
+    background-color: white;
+    overflow: hidden;
+}
+.Contactus-text-h1{
+    font-size: 50px;
+    color: #c41616;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Contactus-text{
+    font-size: 25px;
+    color: black;
+    font-size: 18px;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    text-align: center;
+}
+.footer{
+    height: 5vh;
+    background-color: hwb(220 1% 75%);
+    overflow: hidden;
+    display: flex;
+    color: white;
+    gap: 45rem;
+    padding: 10px;
+}
+.footer-text{
+    display: flex;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.footer-links{
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.footer-links a{
+color: white;
+}

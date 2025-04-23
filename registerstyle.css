@@ -1,0 +1,123 @@
+body{
+    background-color: #020202;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.register-form{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: #f1f0f0 5px 5px 5px;
+    overflow: hidden;
+}
+.register-h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #000000;
+    padding: 5px;
+    text-shadow: #131212 0px 0px 5px;  
+}
+.register-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #131212;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: #131212 0px 0px 5px;
+    box-shadow: #131212 5px 5px 5px;
+    border-radius: 10px;
+}
+.firstname-input,.middlename-input,.lastname-input,.age-input,.email-input,.password-input,.confirmpass-input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: #d344445b 5px 5px 5px;
+    
+}
+.register{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 80%;
+    margin: 10px auto;
+}
+.btn-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.btn-register{
+    width: 50%;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #131212;
+    color: #ffffff;
+    margin: 20px auto;
+    display: flex;
+
+    
+}
+.btn-cancel{
+    width: 50%;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #131212;
+    color: #ffffff;
+    margin: 20px auto;
+    display: flex;
+}
+.btn-register:hover, .btn-cancel:hover{
+    background-color: #dacdcd;
+    color: #0e0d0d;
+    cursor: pointer;
+    border:  inset #000000;
+    transition: all 0.3s ease-out;
+    box-shadow: #020202 5px 5px 5px;
+}
+.linking{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.logo-google{
+    width: 15%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: #131212 5px 5px 5px;    
+
+}
+.logo-facebook{
+    width: 11%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: #131212 5px 5px 5px;     
+}

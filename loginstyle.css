@@ -1,0 +1,158 @@
+body{
+    background-color: #131212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-form{
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: #000000 5px 5px 5px;
+    overflow: hidden;
+}
+.login-h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #000000;
+    text-shadow: #131212 0px 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #131212;
+  box-shadow: #131212 5px 5px 5px;
+  text-shadow: #131212 0px 0px 5px;
+  padding: 5px;
+  margin: 20px;
+}
+.login-input,.password-input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: #000000 5px 5px 5px;
+    display: block;
+}
+.login-label, .password-label{
+    display: block;
+    font-size: 19px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin: 5px;
+}
+.checkbox{
+    padding: 10px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.checkbox input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.Remember-me{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forgot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #ece6e6;
+    background-color: #131212;
+    border-radius: 10px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.forgot:hover{
+    background-color: #dacdcd;
+    color: #0e0d0d;
+    cursor: pointer;
+    border:  inset #000000;
+    
+}
+.create-text{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    gap: 20px;
+}
+.create-text a{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20px;
+    color: #ffffff;
+    background-color: #131212;
+}
+.create-text a:hover{
+    background-color: #dacdcd;
+    color: #0e0d0d;
+    cursor: pointer;
+    border:  inset #000000;
+
+}
+.btn-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.btn-login{
+    width: 50%;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #131212;
+    color: #ffffff;
+    margin: 20px 0 0 20px;
+    transform: translateX(40%);
+    
+}
+.btn-cancel{
+    width: 50%;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #131212;
+    color: #ffffff;
+    margin: 20px 0 0 20px;
+    transform: translateX(40%);
+}
+.btn-login:hover, .btn-cancel:hover{
+    background-color: #dacdcd;
+    color: #0e0d0d;
+    cursor: pointer;
+    border:  inset #000000;
+}
+
+
+
