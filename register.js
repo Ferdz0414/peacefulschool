@@ -100,3 +100,11 @@ btnregister.addEventListener('click', function(e){
 
 
 });
+
+btncancel.addEventListener('click', function(e){
+    e.preventDefault();
+           alert('Cancel Successfully!');
+        window.location.href = "login.html";
+
+
+})
